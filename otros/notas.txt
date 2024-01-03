@@ -1,0 +1,25 @@
+estado del directorio
+git status
+agrgar contenido al repositorio remoto
+git add otros\notas.txt
+agrgar todos los archivos 
+git add .
+crea una nueva confirmacion de los archivos agregados
+git commit -m "comentario"
+cargar cambios locales a un repositorio remoto
+git push
+descargar conntenido del repositorio remoto y actualizar repositorio locales
+git pull origin main
+configuracion de usuario git 
+git config user.name "JuanL1945"
+git config user name "jlaquisc@fcpn.edu.bo"
+ver en que rama estamos
+git branch
+crear nueva rama
+git branch nombre
+cambiar de rama 
+git checkout rama1
+eliminar rama
+git branch -d rama1
+renombrar rama
+git branch -m rama1 rama2

@@ -23,3 +23,4 @@ eliminar rama
 git branch -d rama1
 renombrar rama
 git branch -m rama1 rama2
+html preview para actualizar la pagina 

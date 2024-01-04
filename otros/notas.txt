@@ -12,7 +12,7 @@ descargar conntenido del repositorio remoto y actualizar repositorio locales
 git pull origin main
 configuracion de usuario git 
 git config user.name "JuanL1945"
-git config user name "jlaquisc@fcpn.edu.bo"
+git config user.email "jlaquisc@fcpn.edu.bo"
 ver en que rama estamos
 git branch
 crear nueva rama
@@ -24,3 +24,9 @@ git branch -d rama1
 renombrar rama
 git branch -m rama1 rama2
 html preview para actualizar la pagina 
+abrir repositorio y visual desde cmd 
+C:\Users\CAROLINA>cd Desktop
+
+C:\Users\CAROLINA\Desktop\INF 122>cd INF-122
+
+C:\Users\CAROLINA\Desktop\INF 122\INF-122>code .

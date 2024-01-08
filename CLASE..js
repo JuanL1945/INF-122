@@ -93,3 +93,21 @@ console.log(colores);
 colores.pop();
 colores.sort();
 console.log(colores);
+var encontrado = colores.find(function (elemento)
+{
+    return elemento === "rojo";
+    console.log(encontrado);
+});
+
+var elemento = colores.findIndex(function(elemento)
+{
+    return elemento === 1;
+    console.log(elememto)
+});
+
+function saludar(nombre) {
+    return "hola, " + nombre + "!";
+    console.log(saludar);
+}
+
+const mensaje = saludar("juan");

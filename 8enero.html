@@ -18,13 +18,21 @@
     </Ul>
     <form action="">
         <label for="text"></label>
-        <input type="text" placeholder="Agregar nueva tarea">
+        <input type="text" placeholder="Agregar nueva tarea" id="nueva tarea">
         <button id="boton">Agregar Tarea</button>
     </form>
     <script>
         document.getElementById("boton").addEventListener("click", function () {
             alert("boton clickeado");
         });
+        function agregarTarea(){
+            var nuevaTarea = document.getElementById("nueva tarea").value;
+            var nuevaLista = document.createElement("li");
+            nuevaLista.textContent = nuevaTarea;
+            document.getElementById("tareas-lista").appendChild(nuevaLista);
+            dobument.getElementById("nueva-tarea").value="";
+        }
+        
     </script>
 </body>
 

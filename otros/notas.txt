@@ -30,3 +30,24 @@ C:\Users\CAROLINA>cd Desktop
 C:\Users\CAROLINA\Desktop\INF 122>cd INF-122
 
 C:\Users\CAROLINA\Desktop\INF 122\INF-122>code .
+javascript
+variable global son cadenas(letras)
+variable constante (numeros)
+variables de bloque (nuemros)
+operadores aritmeticos JS
+let suma +
+let resta -
+let division /
+let multiplicacion *
+let modulo %
+operadores de comparacion
+mayor que >
+mayor igual que >=
+menor <
+menor <=
+igual que ===
+diferente que !=
+operadores logicos
+let and = true
+let or = false
+let not = !false 

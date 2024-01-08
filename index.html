@@ -33,15 +33,36 @@
     </ol>
     <form action="">
         <label for="text" class="etiqueta">NOMBRE</label>
-        <Input type="text">
+        <Input type="text" id="input_nombre">
         <div>
             <label for="text" class="etiqueta">APELLIDO</label>
-            <Input type="text">
+            <Input type="text" id="input_apellido">
         </div>
         <div>
-            <input type="submit" value="enviar" class="enviar">
+            <input onclick="enviarFormulario()" type="button" value="enviar" class="enviar">
         </div>
     </form>
+    <label for="text" id="resultado"></label>
 </body>
+<script src="CLASE..js"></script>
+<script>
+    var a = 1
+    let b = 2
+</script>
+<script>
+
+    function enviarFormulario() {
+        var inputNombre = document.getElementById('input_nombre');
+        var valorN = inputNombre.value;
+        var inputApellido = document.getElementById('input_apellido');
+        var valorA = inputApellido.value;
+
+        console.log(valorN); //
+        console.log(valorA); //
+        var labelResultado = document.getElementById('resultado');
+        labelResultado.textContent = valorN +" "+ valorA;
+    }
+
+</script>
 
 </html>

@@ -1,0 +1,51 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #2B2E34;
+    --yellow: #D1AE31;
+    --gray-blue: #0D1423;
+    --clear-gray: #AFC0F2;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--gray);
+}
+
+.cajam {
+    grid-template-rows: 1fr 1fr
+}
+
+.cja {
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    background-color: var(--gray);
+    grid-template-columns: auto auto auto;
+}
+
+.cja1 {
+    display: grid;
+    background-color: var(--gray-blue);
+    place-items: center;
+    width: 300px;
+    height: 160px;
+    border-radius: 05px;
+}
+
+.title {
+    color: var(--white);
+    text-align: center;
+}
+
+p {
+    color: var(--white);
+    text-align: center;
+    font-size: var(--md);
+}
+
+svg {
+    position: relative;
+    bottom: 35px;
+}

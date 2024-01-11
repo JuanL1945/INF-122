@@ -1,0 +1,103 @@
+:root {
+    --black: #0C151D;
+    --white: #FFFFFF;
+    --gray: #A3ABB2;
+    --yellow: #FFE071;
+    --blackgray: #171F26;
+
+}
+
+body {
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black);
+
+}
+
+.cajaMadre {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+h1 {
+    color: var(--white);
+}
+
+.perfil {
+    color: var(--gray);
+}
+
+.experiencia {
+    display: flex;
+    width: 634px;
+    padding: 20px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: var(--gray);
+    text-align: center;
+}
+
+.boton {}
+
+.down {
+    width: 200px;
+    height: 50px;
+    background-color: var(--yellow);
+    color: var(--black);
+    font-size: 22px;
+}
+
+.contact {
+    width: 200px;
+    height: 50px;
+    background-color: var(--blackgray);
+    color: var(--gray);
+    font-size: 22px;
+}
+
+.b2 {
+    width: 700px;
+    height: 70px;
+    background-color: var(--blackgray);
+    border-radius: 10px;
+}
+
+.port {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    background-color: var(--black);
+    color: var(--gray);
+    border-radius: 10px;
+    left: 80px;
+
+}
+
+.skill {
+    width: 200px;
+    height: 50px;
+    position: relative;
+    bottom: -10px;
+    background-color: var(--blackgray);
+    color: var(--gray);
+    border-radius: 10px;
+    left: 200px;
+}
+
+.img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cajas {
+    width: 400px;
+    height: 226px;
+    background-image: url("assets/images/bussiness_man.png");
+    background-size: contain;
+    border-radius: 10px;
+}

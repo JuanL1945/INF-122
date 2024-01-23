@@ -51,3 +51,4 @@ operadores logicos
 let and = true
 let or = false
 let not = !false 
+https://www.blackbox.ai/

@@ -1,103 +1,200 @@
 :root {
-    --black: #0C151D;
     --white: #FFFFFF;
-    --gray: #A3ABB2;
+    --black: #000000;
     --yellow: #FFE071;
-    --blackgray: #171F26;
+    --gray: #2BBE34;
+    --gray-blue: #0D1423;
 
+    --light-purple: #EFE9F9;
+    --red-heart: ##A50954;
+    --blue-heart: #ACD9B2;
+
+    --backgraud-div: #0C151D;
+    --backgraud-section: #171F26;
+    --backgraud-pag: #0C151D;
+    --clear-grey: #A3ABB2;
+    --sm: 14px;
+    --md: 22px;
+    --lg: 46px;
 }
 
 body {
-    color: var(--white);
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--black);
+    background-color: var(--backgraud-pag);
+    font-family: "Poppins";
+    margin: 0 auto;
 
 }
 
-.cajaMadre {
+.main {
+    color: var(--white);
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
     place-items: center;
-}
-
-h1 {
-    color: var(--white);
+    grid-template-rows: auto 1fr 1fr 1fr;
 }
 
 .perfil {
-    color: var(--gray);
+    display: flex;
+    width: 631px;
+    background-color: var(--backgraud-pag);
 }
 
-.experiencia {
+.redes-sociales {
     display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.figure-perfil {
+    width: 215px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: var(--white);
+    border: 5px solid var(--yellow);
+    display: flex;
+    justify-content: center
+}
+
+.foto-perfil {
+    width: 192px;
+    height: 192px;
+    border-radius: 50%;
+    ;
+}
+
+.perfil figure {
+    display: flex;
+    align-content: center;
+    margin: 0;
+}
+
+.perfil-info {
+    width: 372px;
+    height: 156;
+    align-content: end;
+    margin: 30px 0 30px 50px;
+}
+
+.logo {
+    margin: 0 26px 0 0;
+}
+
+.more-info {
+    display: grid;
     width: 634px;
     padding: 20px 2px;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.title {
+    color: var(--white);
+    font-size: var(--lg);
+    margin: 10px 0 10px 0;
+}
+
+.subtitle {
+    color: var(--clear-grey);
+    font-size: var(--md);
+    margin: 10px 0 10px 0;
+}
+
+.icons-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    color: var(--gray);
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 50px 10px 50px;
+    justify-content: center;
+}
+
+.card-container {
+    width: 125px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 28px 16px 28px;
+    color: var(--clear-grey);
+}
+
+.card-container p {
     text-align: center;
 }
 
-.boton {}
+.buttons {
+    width: 631;
+    margin: 0;
+    display: flex;
+}
 
-.down {
-    width: 200px;
-    height: 50px;
+.button-contaiter {
+    margin: 0;
+}
+
+.button {
+    width: 290px;
+    height: 80px;
+    align-content: center;
+    border-radius: 10px;
+}
+
+#push {
     background-color: var(--yellow);
-    color: var(--black);
-    font-size: 22px;
 }
 
-.contact {
-    width: 200px;
-    height: 50px;
-    background-color: var(--blackgray);
-    color: var(--gray);
-    font-size: 22px;
+#push2 {
+    background-color: var(--backgraud-section);
 }
 
-.b2 {
-    width: 700px;
-    height: 70px;
-    background-color: var(--blackgray);
+.descarga {
+    width: 20px;
+    height: 20px;
+}
+
+.work-container {
+    width: 756px;
+    height: 116px;
+    display: flex;
+    color: var(--clear-grey);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backgraud-section);
+}
+
+.w-container:target .tab-content,
+.w-container:last-of-type .tab-content {
+    display: block;
+}
+
+.w-container:target .tab-content,
+.w-container:last-of-type .tab-content {
+    display: block;
+}
+
+
+
+.w-container {
+    width: 349.595px;
+    height: 80px;
+    text-align: center;
     border-radius: 10px;
-}
-
-.port {
-    width: 200px;
-    height: 50px;
-    position: relative;
-    bottom: -10px;
-    background-color: var(--black);
-    color: var(--gray);
-    border-radius: 10px;
-    left: 80px;
+    background-color: #0C151D;
 
 }
 
-.skill {
-    width: 200px;
-    height: 50px;
-    position: relative;
-    bottom: -10px;
-    background-color: var(--blackgray);
-    color: var(--gray);
-    border-radius: 10px;
-    left: 200px;
+.icons-text {
+    background-color: var(--backgraud-div);
 }
 
-.img {
+.imagenes-container .icons-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-column: 1fr 1fr;
+    width: 757px;
+    height: 826px;
 }
 
-.cajas {
-    width: 400px;
+.imagen {
+    width: 362px;
     height: 226px;
-    background-image: url("assets/images/bussiness_man.png");
-    background-size: contain;
-    border-radius: 10px;
+    border-radius: 20px;
 }

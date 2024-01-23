@@ -52,3 +52,12 @@ let and = true
 let or = false
 let not = !false 
 https://www.blackbox.ai/
+CREAR APP NEXT.JS
+PS C:\Users\CAROLINA\Desktop\INF 122\INF-122\semana4> npx create-next-app@latest
+√ What is your project named? ... mi-primer-next
+√ Would you like to use TypeScript? ... No / Yes
+√ Would you like to use ESLint? ... No / Yes
+√ Would you like to use Tailwind CSS? ... No / Yes
+√ Would you like to use `src/` directory? ... No / Yes
+√ Would you like to use App Router? (recommended) ... No / Yes
+√ Would you like to customize the default import alias (@/*)? ... No / Yes
